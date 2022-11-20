@@ -13,7 +13,7 @@ T inverse(T a, T m) {
         return vy < 0 ? m + vy : vy;
 }
 
-template <int _MOD>
+template <int MOD_>
 struct ModularInt {
         static constexpr int MOD = MOD_;
         int v;
