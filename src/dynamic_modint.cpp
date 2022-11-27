@@ -1,3 +1,5 @@
+// Source: https://github.com/ecnerwala/cp-book/blob/master/src/modnum.hpp
+
 template <typename T> 
 T inverse(T a, T m) {
         T x = a, y = m;
