@@ -1,9 +1,11 @@
+// https://judge.yosupo.jp/submission/115752
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
 struct UnionFind {
-	int n, c;
+	int n;
 	vector<int> p;
 	UnionFind(int n_) : n(n_), p(n, -1) {};
 	bool same(int x, int y) {

@@ -1,5 +1,5 @@
 struct UnionFind {
-	int n, c;
+	int n;
 	vector<int> p;
 	UnionFind(int n_) : n(n_), p(n, -1) {};
 	bool same(int x, int y) {
